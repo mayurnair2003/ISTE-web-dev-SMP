@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./Week2.css">
+    
+</head>
+<body>
+    
+ 
+    
+        <div class="heading">
+            <h1>Register Your Self</h1>
+            <p>Your data will be safe with us.We are collecting this data to know more about you.Knowing you will help us.</p>
+        </div>
+
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <div class="login-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search" name="Search">
+            
+              <button type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+
+    
+
+      <div class="part2">
+        
+       <div class="container">
+
+       <h2>Please Login or register yourself</h2>
+       
+        <form action="#" class="regform">
+          <div class="categories">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Username" name="username">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Email" name="email">
+            <br><br>
+            <label for="Password">Password:</label>
+            <input type="password" id="Password" placeholder="Password" name="Password">
+            <br><br>
+            <label for="DOB">Date Of Birth:</label>
+            <input type="date" id="DOB" name="DOB">
+            <br><br>
+            <label for="Age">Age:</label>
+            <input type="number" id="Age" placeholder="Age" name="Age">
+            <br><br>
+          </div>
+    
+           
+          <div class="pick1">
+            <p>Choose your level in programming:</p>
+            <label for="Beginner">Beginner</label>
+            <input type="radio" id="Beginner" name="level" value="Beginner"><br>
+            <label for="Intermediate">Intermediate</label>
+            <input type="radio" id="Intermediate" name="level" value="Intermediate"><br>
+            <label for="Expert">Expert</label>
+            <input type="radio" id="Expert" name="level" value="Expert"><br>
+            
+          </div>
+            <div class="checkbox">
+                <p>Select the known programming languages:</p>
+                <input type="checkbox" id="HTML" name="HTML" value="HTML">
+                <label for="HTML">HTML</label>
+                <input type="checkbox" id="Javascript" name="Javascript" value="Javascript">
+                <label for="Javascript">Javascript</label>
+                <input type="checkbox" id="C++" name="C++" value="C++">
+                <label for="C++">C++</label>
+                <input type="checkbox" id="C" name="C" value="C">
+                <label for="C">C</label>
+                <input type="checkbox" id="Java" name="Java" value="Java">
+                <label for="Java">Java</label>
+                <input type="checkbox" id="python" name="python" value="python">
+                <label for="python">python</label>
+            </div>
+            <input type="hidden" id="reg_num" name="reg_num" value="2110126">
+            <br><br>
+            
+             <input type="button" class="button1" onclick="submitted" value="Submit">
+             <input type="button" class="button1" onclick="reset" value="reset">
+            
+        </form>
+      </div>
+      <div class="card-container">
+        <span class="Beginner">Beginner</span>
+        <img class="round" src="./week2.jpg" alt="user" />
+        <h3>Mayur K Nair</h3>
+        <h6>Mangaluru</h6>
+        <p>1st year Undergrad at NITK,Surathkal <br/> Civil Engineering Department</p>
+        <div class="buttons">
+          <button class="primary">
+            Message
+          </button>
+          
+        </div>
+        <div class="skills">
+          <h6>Skills</h6>
+          <ul>
+            <li>C++</li>
+            <li>Front End Development</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+          </ul>
+        </div>
+      </div>
+     <footer><p>Thank You for filling the form</p></footer>
+    </div>
+</body>
+</html>
